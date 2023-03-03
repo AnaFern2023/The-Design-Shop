@@ -32,11 +32,19 @@ header section h1 a {
     color: black;
 }
 
+header section h1 a:hover {
+    color: #848484;
+}
+
 header section nav a {
     text-decoration: none;
     color: black;
     font-size: 1.7rem;
     font-weight: 600;
+}
+
+header section nav a:hover {
+    color: #848484;
 }
 
 header section nav a:nth-of-type(2) {
@@ -62,12 +70,20 @@ header div span {
 
 
 /* ============================================== */
+
+
+
 main section.container_bigPicture article {
     width: 100%;
 }
 
 main section.container_bigPicture article a img {
     width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+main section.container_bigPicture article a img:hover {
+    opacity: 0.3;
     transition: all 1s ease-in-out;
 }
 
