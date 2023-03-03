@@ -62,26 +62,29 @@ header div span {
 
 
 /* ============================================== */
-
-
-main section.container_bigPicture a img {
+main section.container_bigPicture article {
     width: 100%;
 }
 
-main section.container_bigPicture article {
+main section.container_bigPicture article a img {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+main section.container_bigPicture article article {
     padding-top: 5vh;
     padding-bottom: 10vh;
     display: flex;
     justify-content: space-between;
 }
 
-main section.container_bigPicture article div p {
+main section.container_bigPicture article:nth-of-type(1) div p {
     padding-top: 1vh;
     font-size: 1.5rem;
     color: #848484;
 }
 
-main section.container_bigPicture article p {
+main section.container_bigPicture article:nth-of-type(1) p {
     font-size: 1.5rem;
 }
 
