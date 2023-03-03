@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Karla';
+    src: url("../fonts/Karla-VariableFont_wght.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Karla';
+    padding: 0 8%;
+}
+
+section {
+    height: 100vh;
+    width: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+    height: 80%;
+    width: 90%;
+    background-color: beige;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section div h2 {
+    font-size: 5rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    padding: 2vh 15rem;
+    margin-top: 10vh;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+#newsletter {
+    margin: 5vh 10rem;
+    padding: 2vh;
+    border-radius: 10px;
+    border: none;
+    background-color: darksalmon;
+}
+
+#newsletter:hover {
+    background-color: coral;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    section div h2 {
+        width: 80%;
+        text-align: center;
+        padding-top: 2vh;
+        padding-bottom: 0;
+    }
+
+    #email {
+        padding: 2vh;
+        margin-top: 2vh;
+    }
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+
+    header nav {
+        display: none;
+    }
+
+    header div {
+        display: block;
+    }
+
+
+
+    main section.container_sixPictures {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
+
+    main section.container_sixPictures p {
+        padding-bottom: 5vh;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer article h2 {
+        padding-bottom: 4vh;
+        padding-top: 4vh;
+    }
+
+    .footer article.footer_flex {
+        flex-direction: column;
+    }
+
+    .footer article:nth-of-type(3) {
+        padding-left: 0;
+    }
+}
